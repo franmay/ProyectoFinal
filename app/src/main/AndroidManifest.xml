@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.franmay.plantillas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Autenticación -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+
+    <!-- Sincronización -->
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- SERVICIO DE AUTENTICACIÓN -->
+
+        <!-- SERVICIO DE SINCRONIZACIÓN -->
+
+
+        <activity
+            android:name=".Inicio"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navigation_Drawer"
+            android:label="Plantillas 2018-2019"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActividadEquipos"
+            android:label="Seleccionar un equipo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fragmentos.SeccionesPlantillas"
+            android:label="@string/title_activity_secciones_plantillas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".formularios.FormularioJugador"
+            android:label="Registro."
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".formularios.FormularioCuerpoTecnico"
+            android:label="Registro"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name=".proveedor_contenido.ProveedorContenido"
+            android:authorities="com.example.franmay.plantillas.proveedor_contenido.ProveedorContenido"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".permisos.ObtenerPermisosCamara"
+            android:label="Cargar imágenes"
+            android:parentActivityName=".Navigation_Drawer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Navigation_Drawer" />
+        </activity>
+        <activity
+            android:name=".formularios.FormularioEquipos"
+            android:label="Seleccionar equipo" />
+        <activity
+            android:name=".formularios.FormularioEquiposJugador"
+            android:label="Equipos anteriores" />
+        <activity
+            android:name=".usuario.ActividadUsuario"
+            android:label="Registrar Usuario."
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".usuario.RegistrarUsuario"
+            android:label="Altas/Bajas."
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

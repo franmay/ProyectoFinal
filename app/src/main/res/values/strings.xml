@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Identificación.</string>
+    <string name="title_activity_navigation__drawer">Navigation_Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="account_type">com.example.franmay.plantillas.account</string>
+    <string name="provider_authority">com.example.franmay.plantillas.proveedor_contenido.ProveedorContenido</string>
+    <string name="action_sync">Sincronizar</string>
+
+    <string name="title_activity_secciones">Secciones</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_actividad_equipos">ActividadEquipos</string>
+    <string name="title_activity_secciones_plantillas">SeccionesPlantillas</string>
+
+    <string name="editTextUsuario">Usuario</string>
+    <string name="editTextPassword">Contraseña</string>
+    <string name="iconoLogin">Icono del Login</string>
+
+    <string name="botonLogin">Login</string>
+    <string name="botonCreate">Registrar</string>
+    <string name="botonFind">Buscar</string>
+    <string name="botonCancelar">Cancelar</string>
+
+    <string name="editName">Nombre</string>
+    <string name="editCountry">País</string>
+    <string name="editAge">Edad</string>
+
+    <string name="textTeam">Equipo</string>
+    <string name="textPlace">Posición</string>
+    <string name="title_activity_formulario_jugador">FormularioJugador</string>
+
+    <string name="errorCampo"> Rellenar campo </string>
+    <string name="errorCampoNumerico"> La edad tiene que ser mayor que 0 </string>
+    <string name="errorCampoNoNumerico"> La edad tiene que ser un valor entero </string>
+    <string name="title_activity_formulario_cuerpo_tecnico">FormularioCuerpoTecnico</string>
+    <string name="title_activity_secciones_informacion">SeccionesInformacion</string>
+    <string name="title_activity_formulario_estadio">FormularioEstadio</string>
+    <string name="title_activity_formulario_informacion_general">FormularioInformacionGeneral
+    </string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_cargar_fotos">CargarFotos</string>
+
+    <string name="buttonAccept">Validar</string>
+    <string name="buttonCancel">Cancelar</string>
+    <string name="buttonOther">Otros datos</string>
+    <string name="buttonBack">Regresar</string>
+    <string name="buttonRecord">Grabar</string>
+
+    <string name="titleMain">Otros datos de interés</string>
+    <string name="titlePlace">Situación</string>
+    <string name="titleWin">Campeonatos ganados</string>
+
+    <string name="radioNacionalizado">Nacionalizado</string>
+    <string name="radioComunitarioo">Comunitario</string>
+    <string name="radioExtracomunitario">Extracomunitario</string>
+
+    <string name="winLeague">Liga de España</string>
+    <string name="winForeignLeague">Ligas Extranjeras</string>
+    <string name="winCup">Copa del Rey</string>
+    <string name="winChampionLeague">Ligas de Campeones</string>
+    <string name="winWorldCup">Mundial</string>
+    <string name="title_activity_fran">fran</string>
+    <string name="title_activity_actividad_usuario">ActividadUsuario</string>
+</resources>

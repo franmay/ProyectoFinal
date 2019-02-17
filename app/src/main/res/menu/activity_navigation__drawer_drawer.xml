@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/nav_informacion_general"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Información General" />-->
+
+        <item
+            android:id="@+id/nav_plantillas"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="Plantillas" />
+
+        <item
+            android:id="@+id/nav_imagenes"
+            android:icon="@drawable/ic_camera_alt_black_24dp"
+            android:title="Cargar imágenes" />
+
+        <item
+            android:id="@+id/nav_registrar_usuario"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Registrar/Eliminar Usuario" />
+
+        <!--<item
+            android:id="@+id/nav_sincronizar"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="Sincronización" />-->
+    </group>
+
+
+    <item android:title="Salir.">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Cerrar sesión" />
+
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/ic_settings_power_black_24dp"
+                android:title="Salir de la aplicación" />
+        </menu>
+    </item>
+</menu>

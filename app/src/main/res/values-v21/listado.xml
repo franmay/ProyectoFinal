@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item> Seleccione una opción: </item>
+        <item> Portero </item>
+        <item> Defensa </item>
+        <item> Centrocampista </item>
+        <item> Delantero </item>
+    </string-array>
+
+
+    <string-array name="cargo">
+        <item> Seleccione una opción: </item>
+        <item> Entrenador </item>
+        <item> Preparador de porteros </item>
+        <item> Preparador físico </item>
+    </string-array>
+
+
+    <string-array name="listadoEquipos">
+        <item> Seleccione una opción: </item>
+        <item> Alavés </item>
+        <item> Atlético Madrid </item>
+        <item> Athletic de Bilbao </item>
+        <item> Barcelona </item>
+        <item> Betis </item>
+        <item> Celta </item>
+        <item> Eibar </item>
+        <item> Español </item>
+        <item> Getafe </item>
+        <item> Girona </item>
+        <item> Huesca </item>
+        <item> Leganés </item>
+        <item> Levante </item>
+        <item> Rayo Vallecano</item>
+        <item> Real Madrid </item>
+        <item> Real Sociedad </item>
+        <item> Sevilla </item>
+        <item> Valencia </item>
+        <item> Valladolid </item>
+        <item> Villareal </item>
+
+    </string-array>
+
+
+</resources>

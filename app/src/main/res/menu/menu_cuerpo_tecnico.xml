@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/grabarCuerpoTecnico"
+        android:title="Grabar/Modificar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/borrarCuerpoTecnico"
+        android:title="Borrar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/resetearCuerpoTecnico"
+        android:title="Resetear"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuCuerpoTecnicoHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="always"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/tomarFotoCuerpoTecnico"
+        android:title="foto jugador"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        app:showAsAction="always" />
+</menu>
